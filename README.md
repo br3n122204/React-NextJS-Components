@@ -105,7 +105,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - React Team
 - Next.js Team
 - All contributors
-
-## Support
-
-For support, email support@yourdomain.com or open an issue in the repository.
