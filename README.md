@@ -1,107 +1,79 @@
 # React NextJS Components Library
 
-A modern, reusable component library built with React and Next.js, featuring responsive and accessible UI components.
+A collection of reusable React components built with Next.js, focusing on responsiveness and accessibility.
 
-## Features
+## Components
 
-- Fully responsive components
-- Accessibility-first design
-- Customizable theming
-- SEO-friendly
-- Easy to integrate
-- Performance optimized
+- **Navigation**
+  - Responsive navbar
+  - Dropdown menus
+  - Breadcrumbs
 
-## Prerequisites
+- **Form Elements**
+  - Input fields
+  - Buttons
+  - Form validation
+  - Error handling
 
-- Node.js 18.x or later
-- npm or yarn
-- Git
+- **Layout Components**
+  - Cards
+  - Modals
+  - Tables
+  - Grid system
 
-## Installation
+- **UI Elements**
+  - Loading states
+  - Error boundaries
+  - Tooltips
+  - Alerts
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/React-NextJS-Components.git
-cd React-NextJS-Components
-```
+## Getting Started
 
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 npm install
 # or
 yarn install
 ```
 
-3. Run the development server:
+2. Start development server:
 ```bash
 npm run dev
 # or
 yarn dev
 ```
 
-The application will be available at `http://localhost:3000`
+Visit `http://localhost:3000` to view the components.
 
-## Available Components
-
-- Navigation
-- Buttons
-- Forms
-- Cards
-- Modals
-- Tables
-- Loading States
-- Error Boundaries
-
-## Usage
+## Quick Usage
 
 ```jsx
 import { Button, Card } from '@/components'
 
 function MyComponent() {
   return (
-    <div>
+    <Card>
+      <h2>Example Component</h2>
       <Button variant="primary">Click Me</Button>
-      <Card>
-        <h2>Card Title</h2>
-        <p>Card content goes here</p>
-      </Card>
-    </div>
+    </Card>
   )
 }
 ```
 
-## Documentation
+## Project Structure
 
-Detailed documentation for each component is available in the `/docs` directory.
-
-## Testing
-
-Run the test suite:
-
-```bash
-npm test
-# or
-yarn test
+```
+├── components/     # React components
+├── styles/        # CSS and styling
+├── pages/         # Next.js pages
+├── public/        # Static assets
+└── docs/          # Component documentation
 ```
 
-## Contributing
+## Development
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Authors
-
-- Your Name - Initial work
-
-## Acknowledgments
-
-- React Team
-- Next.js Team
-- All contributors
+- Built with React and Next.js
+- TypeScript for type safety
+- Styled with CSS Modules
+- Responsive design
+- Accessibility compliant
