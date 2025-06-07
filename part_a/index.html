@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My First JavaScript Page</h1>
+        
+        <!-- First Exercise: Hello Button -->
+        <div class="box">
+            <h2>1. Click Button</h2>
+            <button onclick="sayHello()">Click Me!</button>
+            <p id="message"></p>
+        </div>
+
+        <!-- Second Exercise: Change Text Color -->
+        <div class="box">
+            <h2>2. Change Text Color</h2>
+            <p id="colorText">Watch this text change color!</p>
+            <button onclick="makeRed()">Make Red</button>
+            <button onclick="makeBlue()">Make Blue</button>
+        </div>
+
+        <!-- Third Exercise: Simple Counter -->
+        <div class="box">
+            <h2>3. Count Numbers</h2>
+            <p>Count: <span id="count">0</span></p>
+            <button onclick="addOne()">Add 1</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
